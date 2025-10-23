@@ -320,15 +320,15 @@ This project showcases the complete end-to-end BI development lifecycle: **SQL d
 
 ## 🏁 Dashboard Preview  
 
-![Dashboard Overview](dashboard-overview.png)
+![Dashboard Overview](All customers.png)
 
 ### Interactive Bookmark Views
 
 **Active Customers View**  
-![Active Customers](active-customers.png)
+![Active Customers](Active customers.png)
 
 **Churned Customers View**  
-![Churned Customers](churned-customers.png)
+![Churned Customers](Churned customers.png)
 
 ---
 ## 🙏 Acknowledgments  
