@@ -186,7 +186,6 @@ Rounded corners with subtle shadow effects
 **Total Revenue**
 Total Revenue = SUM(Payments[Amount])
 
-text
 
 **MRR (Monthly Recurring Revenue)**
 MRR =
@@ -195,7 +194,6 @@ SUM(Payments[Amount]),
 Payments[PaymentDate] = MAX(Payments[PaymentDate])
 )
 
-text
 
 **ARPU (Average Revenue Per User)**
 ARPU =
@@ -204,7 +202,7 @@ DIVIDE(
 DISTINCTCOUNT(Customers[CustomerID])
 )
 
-text
+
 
 **Churn Rate**
 Churn Rate =
@@ -213,7 +211,7 @@ COUNTROWS(FILTER(Subscriptions, Subscriptions[Customer Status] = "Churned")),
 COUNTROWS(Subscriptions)
 )
 
-text
+
 
 **Active Customers**
 Active Customers =
@@ -222,7 +220,7 @@ DISTINCTCOUNT(Subscriptions[SubscriptionID]),
 Subscriptions[Customer Status] = "Active"
 )
 
-text
+
 
 **Churned Customers**
 Churned Customers =
@@ -231,7 +229,7 @@ DISTINCTCOUNT(Subscriptions[SubscriptionID]),
 Subscriptions[Customer Status] = "Churned"
 )
 
-text
+
 
 **Customer Status (Calculated Column)**
 Customer Status =
@@ -241,7 +239,7 @@ MOD(Subscriptions[SubscriptionID], 3) = 0,
 "Active"
 )
 
-text
+
 
 ---
 
